@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  font-family: "Lato";
+  background-color: #fafafa;  
+}
+
+.gen_header {
+  background: #283593;
+  box-shadow: 0px 0px 10px 0px darkgrey;
+  height: 100px;
+}
+
+.gen_header .header_img {
+  float: left;
+}
+
+.gen_header .header_img img {
+  height: 80px;
+  padding: 10px;
+}
+
+.gen_header .header_title {
+  float: left;
+  color: white;
+  padding-left: 20px;
+  width: 70%;
+}
+
+.gen_header .header_title a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.gen_header .header_subtitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.forms {
+  margin: 0 auto;
+  display: table;
+  width: 90%;
+}
+
+.form_heading {
+  font-size: 30px;
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.forms .label {
+  color: #283593;
+  font-weight: bold;
+  font-size: 15px; 
+  margin-top: 15px;
+  margin-bottom: 8px; 
+}
+
+.forms input[type=text], input[type=password] {
+  height: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: 0px solid #283593;
+  border-bottom: 2px solid #283593;
+  width: 390px;
+}
+
+.forms input::placeholder {
+  color: #455a64;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.login_form {
+  float: left;
+  background-color: white;
+  width: 400px;
+  margin-left: 50px;
+  padding: 50px;
+  padding-top: 25px;
+  margin-top: 150px;
+  box-shadow: 1px 5px 5px 1px darkgrey;
+}
+
+.register_form {
+  float: right;
+  background-color: white;
+  width: 400px;
+  margin-right: 50px;
+  padding: 50px;
+  padding-top: 25px;
+  box-shadow: 1px 5px 5px 1px darkgrey;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.submit button {
+  background-color: #1a237e;
+  border: 0px;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 1px 5px 10px 1px darkgrey;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit button:hover {
+  background-color: white;
+  color: #1a237e;
+}
+
+.error_message {
+  font-size: 15px;
+  color: #d50000;
+  padding: 5px;
+  font-style: italic;
+}

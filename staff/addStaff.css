@@ -1,0 +1,401 @@
+body {
+  margin: 0px;
+  font-family: "Lato";
+  background-color: #fafafa;  
+}
+
+.gen_header {
+  background: #283593;
+  box-shadow: 0px 0px 10px 0px darkgrey;
+  height: 100px;
+}
+
+.gen_header .header_img {
+  float: left;
+}
+
+.gen_header .header_img img {
+  height: 80px;
+  padding: 10px;
+}
+
+.gen_header .header_title {
+  float: left;
+  color: white;
+  padding-left: 20px;
+  width: 70%;
+}
+
+.gen_header .header_title a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.gen_header .header_subtitle {
+  font-size: 15px;
+  color: white;
+  float: left;
+  font-weight: bold;
+}
+
+.gen_header .header_info {
+  font-size: 15px;
+  color: yellow;
+  float: right;
+  font-weight: bold;
+}
+
+.logout {
+  float: right;
+  padding-top: 35px;
+}
+
+.logout button {
+  background-color: red;
+  border: 0px;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  box-shadow: 1px 2px 5px 1px black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logout button:hover {
+  background-color: white;
+  color: red;
+}
+
+.container_body {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
+  box-shadow: 1px 5px 10px 1px darkgrey;
+}
+
+.exam_form_header {
+  padding: 5px;
+  color: white;
+  background-color: #263238;
+  height: 75px;
+  box-shadow: 1px 3px 3px 1px darkgrey;
+}
+
+.exam_form_header .title {
+  font-size: 30px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.exam_form_header .subtitle {
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.staff_list_header {
+  padding: 5px;
+  color: white;
+  background-color: #546e7a;
+  height: 75px;
+  box-shadow: 1px 3px 3px 1px darkgrey;
+}
+
+.staff_list_header .title {
+  font-size: 30px;
+  padding: 5px;
+  font-weight: bold;
+  float: left;
+}
+
+.staff_list_header .subtitle {
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bold;
+  float: right;
+  margin-top: 10px;
+}
+
+.staff_list_header .subtitle a {
+  text-decoration: none;
+  color: #546e7a;
+  background-color: white;
+  padding: 5px;
+}
+
+.staff_list_header .subtitle a:hover {
+  text-decoration: none;
+  color: #546e7a;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 1px 2px 2px 1px #263238;
+}
+
+.staff_list table {
+  box-shadow: 1px 2px 2px 1px darkgrey;
+}
+
+.staff_list th {
+  background-color: #303f9f;
+  color: white;
+  height: 50px;
+}
+
+.staff_list td {
+  text-align: center;
+  height: 40px;
+}
+
+.form_content .form_title {
+  color: #283593;
+  font-weight: bold;
+  font-size: 15px; 
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.form_content input[type=text], input[type=date], input[type=time] {
+  height: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 10px;
+  border: 0px solid #283593;
+  border-bottom: 2px solid #283593;
+  width: 390px;
+}
+
+.form_content input::placeholder {
+  color: #455a64;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit button {
+  background-color: #263238;
+  border: 0px;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 1px 3px 5px 1px darkgrey;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit button:hover {
+  background-color: white;
+  color: #263238;
+}
+
+.home_navigator {
+  background-color: #3f51b5;
+  width: 100%;
+  color: white;
+  height: 40px;
+}
+
+.home_navigator .link {
+  padding: 5px;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.home_navigator a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #3f51b5;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+}
+
+.home_navigator a:hover {
+  text-decoration: none;
+  font-size: 15px;
+  color: #3f51b5;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 1px 1px 1px 1px #c5cae9;
+}
+
+.update button {
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 2px;
+  border: 0px solid #1976d2;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+.update button:hover {
+  background-color: white;
+  color: #1976d2;
+  border: 0px solid #1976d2;
+}
+
+.delete button {
+  background-color: #dd2c00;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 2px;
+  border: 0px solid #dd2c00;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+.delete button:hover {
+  background-color: white;
+  color: #dd2c00;
+  border: 0px solid #1976d2;
+}
+
+.delete button {
+  background-color: #dd2c00;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 2px;
+  border: 0px solid #dd2c00;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+.delete button:hover {
+  background-color: white;
+  color: #dd2c00;
+  border: 0px solid #1976d2;
+}
+
+.update_button button {
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+  padding: 2px 10px 2px 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 0px solid #1976d2;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+.update_button button:hover {
+  background-color: white;
+  color: #1976d2;
+}
+
+.delete_confirmation {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.delete_yes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete_yes button {
+  background-color: #dd2c00;
+  color: white;
+  font-weight: bold;
+  padding: 2px 20px 2px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 0px solid #dd2c00;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+.delete_yes button:hover {
+  background-color: white;
+  color: #dd2c00;
+}
+
+.delete_no {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete_no button {
+  background-color: white;
+  color: #dd2c00;
+  font-weight: bold;
+  padding: 2px 25px 2px 25px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 0px solid #dd2c00;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px darkgrey;
+}
+
+.delete_no button:hover {
+  background-color: #dd2c00;
+  color: white;
+}
+
+.delete_details {
+  padding-left: 175px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.delete_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #dd2c00;
+}
+
+.delete_title .info {
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+}
