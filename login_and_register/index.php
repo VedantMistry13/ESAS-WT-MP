@@ -29,8 +29,9 @@
             $_SESSION['register_message'] = '*enter all fields!';
           } else {
             if ($password === $cpassword) {
+              $md5_2 = md5(md5($password));
               $sql = "INSERT into users (first_name, last_name, email, password)"
-                ."VALUES ('$first_name', '$last_name', '$email', '$password')";
+                ."VALUES ('$first_name', '$last_name', '$email', '$md5_2')";
 
               if ($db->query($sql)) {
                 $_SESSION['first_name'] = $first_name;
@@ -58,7 +59,7 @@
         $result = $db->query($sql);
 
         if ($user = $result->fetch_assoc()) {
-          if ($password === $user['password']) {
+          if (md5(md5($password)) === $user['password']) {
             $_SESSION['first_name'] = $user['first_name'];
             $_SESSION['last_name'] = $user['last_name'];
             $_SESSION['email'] = $user['email'];

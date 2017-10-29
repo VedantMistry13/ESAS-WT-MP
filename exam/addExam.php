@@ -45,6 +45,7 @@
 	<title>ESAS</title>
 	<link rel="stylesheet" type="text/css" href="addExam.css" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	<script type="text/javascript" src="addExam.js"></script>
 </head>
 <body>
 
@@ -104,7 +105,7 @@
 
 							<div class="form_content">
 							
-								<form method="POST" action="addExam.php">
+								<form method="POST" action="addExam.php" name="examForm" onsubmit="return validateRegisterForm();">
 
 									<div class="form_title">Course ID*: </div>
 									<input type="text" maxlength="5" name="course_id" placeholder="Course ID" />

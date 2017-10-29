@@ -113,7 +113,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   box-shadow: 1px 5px 10px 1px darkgrey;
-  border-radius: 5px;
+  border-radius: 3px;
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -122,6 +122,44 @@ body {
 .submit button:hover {
   background-color: white;
   color: #1a237e;
+}
+
+.submit button{
+  position: relative;
+  overflow: hidden;
+}
+
+.submit button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.submit button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
 }
 
 .error_message {

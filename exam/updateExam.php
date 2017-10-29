@@ -60,6 +60,7 @@
 	<title>VES-ESAS</title>
 	<link rel="stylesheet" type="text/css" href="addExam.css" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	<script type="text/javascript" src="addExam.js"></script>
 </head>
 <body>
 
@@ -99,7 +100,7 @@
 
 				<div class="form_content" style="padding-left: 50px;">
 				
-					<form method="POST" action="updateExam.php">
+					<form method="POST" action="updateExam.php" name="examForm" onsubmit="return validateRegisterForm();">
 
 						<input type="hidden" name="_id" value='<?php echo $row['_id'] ?>' placeholder="ID" />
 

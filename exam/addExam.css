@@ -69,6 +69,49 @@ body {
   color: red;
 }
 
+.logout button{
+  position: relative;
+  overflow: hidden;
+}
+
+.logout button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.logout button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
+}
+
+.logout button:hover {
+  background-color: white;
+  color: #263238;
+}
+
 .container_body {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -223,7 +266,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   box-shadow: 1px 3px 5px 1px darkgrey;
-  border-radius: 5px;
+  border-radius: 3px;
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -232,6 +275,44 @@ body {
 .submit button:hover {
   background-color: white;
   color: #263238;
+}
+
+.submit button{
+  position: relative;
+  overflow: hidden;
+}
+
+.submit button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.submit button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
 }
 
 .home_navigator {
@@ -280,6 +361,44 @@ body {
   border: 0px solid #1976d2;
 }
 
+.update button{
+  position: relative;
+  overflow: hidden;
+}
+
+.update button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.update button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
+}
+
 .delete button {
   background-color: #dd2c00;
   color: white;
@@ -294,6 +413,44 @@ body {
   background-color: white;
   color: #dd2c00;
   border: 0px solid #1976d2;
+}
+
+.delete button{
+  position: relative;
+  overflow: hidden;
+}
+
+.delete button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.delete button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
 }
 
 .update_button button {
@@ -311,6 +468,44 @@ body {
 .update_button button:hover {
   background-color: white;
   color: #1976d2;
+}
+
+.update_button button{
+  position: relative;
+  overflow: hidden;
+}
+
+.update_button button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.update_button button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
 }
 
 .delete_confirmation {
@@ -342,6 +537,44 @@ body {
   color: #dd2c00;
 }
 
+.delete_yes button{
+  position: relative;
+  overflow: hidden;
+}
+
+.delete_yes button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.delete_yes button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
+}
+
 .delete_no {
   display: flex;
   justify-content: center;
@@ -363,6 +596,44 @@ body {
 .delete_no button:hover {
   background-color: #dd2c00;
   color: white;
+}
+
+.delete_no button{
+  position: relative;
+  overflow: hidden;
+}
+
+.delete_no button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.delete_no button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
 }
 
 .delete_details {

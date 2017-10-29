@@ -50,7 +50,7 @@
 	  				</tr>
 	  				<tr>
 	  					<td>
-	  						<div class="navigator_title">Add Exam</div>
+	  						<div class="navigator_title">Add Examinations</div>
 	  					</td>
 	  				</tr>
 	  			</table>
@@ -67,7 +67,7 @@
 	  				</tr>
 	  				<tr>
 	  					<td>
-	  						<div class="navigator_title">Add Staff</div>
+	  						<div class="navigator_title">Add Staff Members</div>
 	  					</td>
 	  				</tr>
 	  			</table>
@@ -84,7 +84,7 @@
 	  				</tr>
 	  				<tr>
 	  					<td>
-	  						<div class="navigator_title">Generate Allotment</div>
+	  						<div class="navigator_title">Generate Allotment List</div>
 	  					</td>
 	  				</tr>
 	  			</table>
@@ -109,7 +109,7 @@
 	  				</tr>
 	  				<tr>
 	  					<td>
-	  						<div class="navigator_title">Exams</div>
+	  						<div class="navigator_title">Manage Examinations</div>
 	  					</td>
 	  				</tr>
 	  			</table>
@@ -126,29 +126,12 @@
 	  				</tr>
 	  				<tr>
 	  					<td>
-	  						<div class="navigator_title">Staff Members</div>
+	  						<div class="navigator_title">Manage Staff Members</div>
 	  					</td>
 	  				</tr>
 	  			</table>
 	  		</div>
   		</a>
-<!-- 
-  		<a href="../allotment-generator/allotter.php">
-	  		<div class="navigator">
-	  			<table>
-	  				<tr>
-	  						<td>
-	  							<img src="assets/list.png" />
-	  						</td>
-	  				</tr>
-	  				<tr>
-	  					<td>
-	  						<div class="navigator_title">Generate Allotment</div>
-	  					</td>
-	  				</tr>
-	  			</table>
-	  		</div>
-  		</a> -->
   		
   	</div>
 
