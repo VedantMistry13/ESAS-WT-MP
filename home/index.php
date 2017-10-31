@@ -27,7 +27,7 @@
       <div class="header_subtitle">VESIT Examination Staff Allotment System</div>
       <div class="header_info">Welcome <?php echo $_SESSION['first_name']." ".$_SESSION['last_name']."!"; ?></div>
     </div>
-
+    
 	  <div class="logout">
 	    <button onclick="location.href='../login_and_register/logout.php'">LOGOUT</button>
 	  </div>	

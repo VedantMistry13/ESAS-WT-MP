@@ -49,7 +49,7 @@
           $_SESSION['register_message'] = '*enter all fields!';
         }
     } else if ($_POST['submit'] === 'login') {
-      $_SESSION['login_message'] = '*works';
+      // $_SESSION['login_message'] = '*works';
       if(isset($_POST['email']) && isset($_POST['password'])) {
         // $_SESSION['login_message'] = '*works!';
         $email = $_POST['email'];
@@ -68,7 +68,7 @@
             $_SESSION['login_message'] = '*Invlaid email or password!';
           }
         } else {
-          $_SESSION['login_message'] = '*Invlaid email or password!';
+          $_SESSION['login_message'] = '*Invalid email or password!';
         }
       } else {
         $_SESSION['login_message'] = '*enter all fields!';

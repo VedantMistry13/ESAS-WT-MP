@@ -115,7 +115,7 @@
 									<input type="text" name="course_name" placeholder="Course Name"/>
 									<br />
 
-									<div class="form_title">Held on*: </div>
+									<div class="form_title" >Held on*: </div>
 									<input type="date" name="held_on" />
 									<br />
 

@@ -201,6 +201,7 @@ body {
 }
 
 .allotment_list table {
+  width: 100%;
   box-shadow: 1px 2px 2px 1px darkgrey;
 }
 
@@ -208,11 +209,13 @@ body {
   background-color: #546e7a;
   color: white;
   height: 50px;
+  box-shadow: 1px 1px 1px 1px darkgrey;
 }
 
 .allotment_list td {
   text-align: center;
   height: 40px;
+  box-shadow: 1px 1px 1px 1px darkgrey;
 }
 
 .submit {

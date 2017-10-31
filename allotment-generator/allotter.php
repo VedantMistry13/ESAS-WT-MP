@@ -204,6 +204,9 @@
 				if ($could_not_allot) {
 					$_SESSION['message'] = '*Failed to generate allotment, please refresh or add more staff!';
 					echo "<div class='error_message'>".$_SESSION['message']."</div>";
+				} else {
+					$_SESSION['message'] = '*Allotment list generated!';
+					echo "<div class='error_message'>".$_SESSION['message']."</div>";
 				}
 
 				?>

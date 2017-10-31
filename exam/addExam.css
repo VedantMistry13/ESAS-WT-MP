@@ -224,7 +224,7 @@ body {
 }
 
 .styled-select {
-   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   background: url(../staff/down-1.jpg) no-repeat 96% 0;
    height: 29px;
    overflow: hidden;
    width: 240px;
@@ -235,12 +235,12 @@ body {
    border: none;
    font-size: 14px;
    height: 29px;
-   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   padding: 5px;
    width: 268px;
 }
 
 .styled-select.slate {
-   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   background: url(../staff/down-1.jpg) no-repeat right center;
    height: 34px;
    width: 240px;
 }
