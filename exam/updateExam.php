@@ -6,7 +6,7 @@
 
 	$db = new mysqli('localhost', 'root', '', 'esas') 
 				or die("Error connecting to database!");
-	
+
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		if (isset($_POST['course_id']) && isset($_POST['course_name']) && isset($_POST['held_on'])
 				&& isset($_POST['start_time']) && isset($_POST['end_time']) && isset($_POST['room_no'])) {
@@ -34,9 +34,7 @@
 				header("Location: viewExam.php");
 			} else {
 				// $update_id = $_id;
-
 				$sql = "SELECT * from exam where _id = '$_id'";
-
 				$res = $db->query($sql);
 				$row = $res->fetch_assoc();
 				// print_r($row);

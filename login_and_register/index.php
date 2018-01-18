@@ -18,11 +18,11 @@
         && isset($_POST['password']) && isset($_POST['cpassword'])) {
           // $_SESSION['register_message'] = '*works!';
           
-          $first_name = $_POST['first_name'];
-          $last_name = $_POST['last_name'];
-          $email = $_POST['email'];
-          $password = $_POST['password'];
-          $cpassword = $_POST['cpassword'];
+          $first_name = mysqli_real_escape_string($db, $_POST['first_name']);
+          $last_name = mysqli_real_escape_string($db, $_POST['last_name']);
+          $email = mysqli_real_escape_string($db, $_POST['email']);
+          $password = mysqli_real_escape_string($db, $_POST['password']);
+          $cpassword = mysqli_real_escape_string($db, $_POST['cpassword']);
 
           if (trim($first_name) === '' || trim($last_name) === '' || trim($email) === ''
             || strlen($password) == 0 || strlen($cpassword) == 0) {
@@ -52,8 +52,8 @@
       // $_SESSION['login_message'] = '*works';
       if(isset($_POST['email']) && isset($_POST['password'])) {
         // $_SESSION['login_message'] = '*works!';
-        $email = $_POST['email'];
-        $password = $_POST['password'];
+        $email = mysqli_real_escape_string($db, $_POST['email']);
+        $password = mysqli_real_escape_string($db, $_POST['password']);
 
         $sql = "SELECT * from users WHERE email = '$email'";
         $result = $db->query($sql);
