@@ -163,7 +163,7 @@
 							<br />
 
 							<div class="update_button">
-								<button type="submit">UPDATE</button>	
+								<button type="submit">UPDATE</button>		
 							</div>
 
 						</form>

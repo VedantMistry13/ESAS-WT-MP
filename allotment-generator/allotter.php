@@ -1,5 +1,8 @@
 <?php
 	session_start();
+	if ($_SESSION['first_name'] === null || $_SESSION['last_name'] === null || $_SESSION['email'] === null) {
+		header("Location: ../login_and_register/index.php");
+	}
 ?>
 <!DOCTYPE html>
 <html>
