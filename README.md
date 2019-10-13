@@ -1,7 +1,7 @@
 # ESAS-WT-MP
-Examination Staff Allotment System - Mini Project
+Examination Staff Allotment System - Web Technologies Course Project
 
-IInd Year Computer Engineering Web Technology - Mini Project
+IInd Year Computer Engineering Web Technology - Web Technologies Course Project
     
 ## Before you read or go through the project...
 Please see, this is my first project in Web Technology with PHP & MySQL DB. :)
